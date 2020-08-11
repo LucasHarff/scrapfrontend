@@ -1,0 +1,49 @@
+textarea {
+  resize: none;
+}
+
+html {
+  background-color: #e9ecef;
+}
+
+#scrapsField .message-cards {
+  width: 250px;
+  height: 240px;
+}
+
+#scrapsField .message-cards .card-text {
+  height: 100px;
+  overflow-y: scroll;
+}
+.fa-trash-alt:hover {
+  color: rgb(255, 0, 0);
+}
+
+.fa-github:hover,
+.fa-linkedin-in:hover {
+  background-color: rgba(0, 0, 0, 0.082);
+}
+.navbar-brand {
+  padding: 19px;
+  border-bottom: 2px solid #343a40;
+}
+.navbar-brand:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid black;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
