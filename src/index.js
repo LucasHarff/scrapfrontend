@@ -143,7 +143,7 @@ class TaskList {
 
     await api.put(`scraps/${scrapId}`, { title, message });
 
-    this.scraps[scrapIndex] = { title, message };
+    this.scraps[scrapIndex] = { scrapId, title, message };
     this.renderScraps();
 
     $("#editModal").modal("hide");
