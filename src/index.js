@@ -71,7 +71,7 @@ class TaskList {
     for (const scrap of this.scraps) {
       this.generateScrap(scrap.id, scrap.title, scrap.message);
     }
-    this.getScraps();
+    // this.getScraps();
     this.setButtonEvents();
   }
 
