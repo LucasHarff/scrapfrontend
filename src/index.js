@@ -119,7 +119,7 @@ class TaskList {
 
     this.scraps.splice(scrapIndex, 1);
 
-    await api.delete(`scraps/${scrapID}`);
+    await api.delete(`scraps/${scrapId}`);
   }
 
   openEditModal(event) {
