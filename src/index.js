@@ -26,9 +26,8 @@ class TaskList {
 
     this.scraps = [];
 
-    this.setAddButtonEvents();
-
     this.getScraps();
+    this.setAddButtonEvents();
   }
 
   async getScraps() {
