@@ -47,9 +47,9 @@ class TaskList {
   //   this.deleteScrap();
   // }
 
-  generateScrapId() {
-    return this.scraps.length + 1;
-  }
+  // generateScrapId() {
+  //   return this.scraps.length + 1;
+  // }
 
   setAddButtonEvents() {
     this.addButton.onclick = () => this.addNewScrap();
